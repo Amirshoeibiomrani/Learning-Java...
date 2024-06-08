@@ -3,14 +3,9 @@
 public class Main {
 
     public static void main(String[] args) {
+        System.out.println("Welcome\n to Java\n Tutorials!");
+        System.out.println("Welcome \'to\' \"Java\"  Tutorials\t!");
+        System.out.println("Welcome \\to\\ \fJava  Tutorials!");
 
-        Car car = new Car();
-//        int a = 10;
-//        int b = 5;
-//        car.printSum(a,b);
-//
-//        car.printSum(15,35 );
-        int sum = car.getSum(5,50,35);
-        System.out.println(sum/2);
     }
 }
