@@ -5,6 +5,8 @@ import java.text.MessageFormat;
 public class Main {
 
     public static void main(String[] args) {
+        /*
+
         System.out.println("Welcome\n to Java\n Tutorials!");
         System.out.println("Welcome \'to\' \"Java\"  Tutorials\t!");
         System.out.println("Welcome \\to\\ \fJava  Tutorials!");
@@ -33,5 +35,34 @@ public class Main {
         System.out.println(MessageFormat.format("num1={0}",num2));
         System.out.println(MessageFormat.format("num1={0}",num3));
         System.out.println(MessageFormat.format("num1={0}",num4));
+
+*/
+        //Type Casting
+ /*
+
+      //  int x = 2;
+      //  double sum = x + 5.6;
+      //  System.out.println("sum is " + sum);
+        long x = 2l;
+        int sum = (int)x + 3;
+        System.out.println(sum);
+
+        String X = "1";
+//        int summ = Integer.parseInt(X) + 3;
+        long summ= Long.parseLong(X) + 4 ;
+        System.out.println("summ " + summ);
+*/
+
+
+        //Array
+        /*
+
+
+
+
+
+
+*/
+
     }
 }
