@@ -1,4 +1,5 @@
 import java.text.MessageFormat;
+import java.util.Arrays;
 
 //TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
 // click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
@@ -55,14 +56,12 @@ public class Main {
 
 
         //Array
-        /*
 
+        int[] ages = {20,33,44,10,0,97};
+        System.out.println(ages.length);
+        Arrays.sort(ages);
 
-
-
-
-
-*/
+        System.out.println(Arrays.toString(ages));
 
     }
 }
